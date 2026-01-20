@@ -41,6 +41,7 @@ const styles = StyleSheet.create({
     rowGap: 5,
     backgroundColor: "#fffeff",
     marginBottom: 0,
+    paddingTop:20,
   },
   searchBar: {
     marginHorizontal: 12,

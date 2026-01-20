@@ -6,12 +6,8 @@ const AppCategory = ({ categoryTitle, sections }) => {
     <View style={styles.container}>
       <Text style={styles.title}>{categoryTitle}</Text>
       <View style={styles.sectionContainer}>
-        <FlatList 
-        
-        />
         {sections.map((sec, i) => (
           <AppCategorySection
-            
             key={i}
             Icon={sec.Icon}
             title={sec.title}
@@ -28,19 +24,18 @@ const AppCategory = ({ categoryTitle, sections }) => {
 export default AppCategory;
 const styles = StyleSheet.create({
   container: {
-    marginTop:10,
-
-   },
-
-  title: { 
-    marginBottom:10,
-    paddingLeft:20,
-    fontWeight:"600",
-    fontSize:14,
-    color:"#494649",
-   },
-  sectionContainer: {  
-    backgroundColor: "#fffeff"  ,
+    marginTop: 10,
   },
-  section: { },
+
+  title: {
+    marginBottom: 10,
+    paddingLeft: 20,
+    fontWeight: "600",
+    fontSize: 14,
+    color: "#494649",
+  },
+  sectionContainer: {
+    backgroundColor: "#fffeff",
+  },
+  section: {},
 });

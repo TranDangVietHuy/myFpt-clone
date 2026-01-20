@@ -7,12 +7,15 @@ export default function AppCategorySection({
   total,
   index,
 }) {
+  const IconComponent = Icon;
   return (
     <View
       style={index == total - 1 ? styles.containerNoBorder : styles.container}
     >
       <View style={styles.iconContainer}>
-        {Icon && <Icon width="100%" height="100%" />}
+        {typeof IconComponent === "function" && (
+          <IconComponent width="100%" height="100%" />
+        )}
       </View>
       <View style={styles.detailContainer}>
         <Text style={styles.detailTitle}>{title}</Text>

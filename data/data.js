@@ -112,7 +112,7 @@ export const APP_CATEGORIES = [
         title: "Events",
         subtitle:
           "Register, check-in, check-out, send feedback to company events and programs",
-        Icon: EventIcon,
+        // Icon: EventIcon,
       },
       {
         id: "survey",

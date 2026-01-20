@@ -1,1 +1,32 @@
-import React from 'react';import { Svg, Path, G, Defs, LinearGradient, Stop, Circle, Rect } from 'react-native-svg';export default function IconBotNavAllappActive({ width = 28, height = 28, color = '#000' }) {  return (    <Svg width={width} height={height} viewBox="0 0 28 28">        <Path d="M14,14m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" fill="#185ece" stroke="#000000" strokeOpacity="0" strokeWidth="1"/>  <Path d="M14,14m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0" fill="#000000" fillOpacity="0" stroke="#fafafa" strokeWidth="1"/>  <G>    <Path d="M13.981,15.82h3.916v0.692h-3.916ZM13.981,15.82" fill="#fff"/>    <Path d="M19.694,8.865L8.148,8.865A0.385,0.385 0,0 0,7.763 9.249v9.309a0.385,0.385 0,0 0,0.385 0.385L19.694,18.943a0.385,0.385 0,0 0,0.385 -0.385L20.079,9.249A0.385,0.385 0,0 0,19.694 8.865ZM13.212,17.171L13.212,15.065a0.385,0.385 0,0 1,0.385 -0.385h4.685a0.385,0.385 0,0 1,0.385 0.385v2.106a0.385,0.385 0,0 1,-0.385 0.385L13.597,17.556A0.385,0.385 0,0 1,13.212 17.171ZM13.212,17.171" fill="#fff"/>    <Path d="M13.771,8.095 L13.706,7.731A0.385,0.385 0,0 0,13.332 7.413L8.981,7.413a0.385,0.385 0,0 0,-0.379 0.318l-0.064,0.365ZM13.771,8.095" fill="#fff"/>  </G>    </Svg>  );}
+import * as React from "react";
+import Svg, { Path } from "react-native-svg";
+
+function SvgComponent(props) {
+  return (
+    <Svg
+      width={28}
+      height={28}
+      viewBox="0 0 28 28"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <Path d="M0 14a14 14 0 1128 0 14 14 0 11-28 0" fill="#185ece" />
+      <Path
+        d="M.5 14a13.5 13.5 0 1127 0 13.5 13.5 0 11-27 0"
+        stroke="#fafafa"
+        fill="none"
+      />
+      <Path d="M13.981 15.82h3.916v.692h-3.916zm0 0" fill="#fff" />
+      <Path
+        d="M19.694 8.865H8.148a.385.385 0 00-.385.384v9.309a.385.385 0 00.385.385h11.546a.385.385 0 00.385-.385V9.249a.385.385 0 00-.385-.384zm-6.482 8.306v-2.106a.385.385 0 01.385-.385h4.685a.385.385 0 01.385.385v2.106a.385.385 0 01-.385.385h-4.685a.385.385 0 01-.385-.385zm0 0"
+        fill="#fff"
+      />
+      <Path
+        d="M13.771 8.095l-.065-.364a.385.385 0 00-.374-.318H8.981a.385.385 0 00-.379.318l-.064.365zm0 0"
+        fill="#fff"
+      />
+    </Svg>
+  );
+}
+
+export default SvgComponent;

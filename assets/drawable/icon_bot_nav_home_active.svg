@@ -1,1 +1,31 @@
-<svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg">\n  <path d="M14,14m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" fill="#185ece" stroke="#000000" stroke-opacity="0" stroke-width="1"/>\n  <path d="M14,14m-13.5,0a13.5,13.5 0,1 1,27 0a13.5,13.5 0,1 1,-27 0" fill="#000000" fill-opacity="0" stroke="#fafafa" stroke-width="1"/>\n  <g>\n    <path d="M18.876,19.969L9.121,19.969A1.4,1.4 0,0 1,7.727 18.577L7.727,11.416A2.5,2.5 0,0 1,8.466 9.73L13.013,6.412a1.467,1.467 0,0 1,1.974 0L19.533,9.73a2.5,2.5 0,0 1,0.739 1.682v7.161A1.4,1.4 0,0 1,18.876 19.969ZM13.193,12.564a0.5,0.5 0,0 0,-0.5 0.5L12.693,16.42a0.5,0.5 0,0 0,0.5 0.5L14.806,16.92a0.5,0.5 0,0 0,0.5 -0.5L15.306,13.064a0.5,0.5 0,0 0,-0.5 -0.5Z" fill="#fff"/>\n  </g>\n</svg>
+import * as React from "react"
+import Svg, { Path } from "react-native-svg"
+
+function SvgComponent(props) {
+  return (
+<Svg
+      width={28}
+      height={28}
+      viewBox="0 0 28 28"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      {"\\n"}
+    <Path d="M0 14a14 14 0 1128 0 14 14 0 11-28 0" fill="#185ece" />
+      {"\\n"}
+    <Path
+        d="M.5 14a13.5 13.5 0 1127 0 13.5 13.5 0 11-27 0"
+        stroke="#fafafa"
+        fill="none"
+      />
+      {"\\n\\n"}
+    <Path
+        d="M18.876 19.969H9.121a1.4 1.4 0 01-1.394-1.392v-7.161a2.5 2.5 0 01.739-1.686l4.547-3.318a1.467 1.467 0 011.974 0l4.546 3.318a2.5 2.5 0 01.739 1.682v7.161a1.4 1.4 0 01-1.396 1.396zm-5.683-7.405a.5.5 0 00-.5.5v3.356a.5.5 0 00.5.5h1.613a.5.5 0 00.5-.5v-3.356a.5.5 0 00-.5-.5z"
+        fill="#fff"
+      />
+      {"\\n\\n"}
+</Svg>
+  )
+}
+
+export default SvgComponent

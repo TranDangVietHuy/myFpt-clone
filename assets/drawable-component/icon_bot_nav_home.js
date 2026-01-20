@@ -1,1 +1,21 @@
-import React from 'react';import { Svg, Path, G, Defs, LinearGradient, Stop, Circle, Rect } from 'react-native-svg';export default function IconBotNavHome({ width = 22, height = 22, color = '#000' }) {  return (    <Svg width={width} height={height} viewBox="0 0 22 22">        <G>    <Path d="M17.705,20.582L4.292,20.582A1.917,1.917 0,0 1,2.375 18.669L2.375,8.822A3.435,3.435 0,0 1,3.391 6.51L9.643,1.942a2.017,2.017 0,0 1,2.714 0l6.251,4.568a3.436,3.436 0,0 1,1.016 2.312v9.847A1.919,1.919 0,0 1,17.705 20.582ZM9.705,10.4a0.5,0.5 0,0 0,-0.5 0.5v4.99a0.5,0.5 0,0 0,0.5 0.5L12.297,16.39a0.5,0.5 0,0 0,0.5 -0.5L12.797,10.901a0.5,0.5 0,0 0,-0.5 -0.5Z" fill="#000000" fillOpacity="0.4"/>  </G>    </Svg>  );}
+import * as React from "react";
+import Svg, { Path } from "react-native-svg";
+
+function SvgComponent(props) {
+  return (
+    <Svg
+      width={22}
+      height={22}
+      viewBox="0 0 22 22"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <Path
+        d="M17.705 20.582H4.292a1.917 1.917 0 01-1.917-1.913V8.822A3.435 3.435 0 013.391 6.51l6.252-4.568a2.017 2.017 0 012.714 0l6.251 4.568a3.436 3.436 0 011.016 2.312v9.847a1.919 1.919 0 01-1.919 1.913zm-8-10.182a.5.5 0 00-.5.5v4.99a.5.5 0 00.5.5h2.592a.5.5 0 00.5-.5v-4.989a.5.5 0 00-.5-.5z"
+        fillOpacity={0.4}
+      />
+    </Svg>
+  );
+}
+
+export default SvgComponent;

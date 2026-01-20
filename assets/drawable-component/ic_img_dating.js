@@ -1,1 +1,48 @@
-import React from 'react';import { Svg, Path, G, Defs, LinearGradient, Stop, Circle, Rect } from 'react-native-svg';export default function IcImgDating({ width = 48.001, height = 48, color = '#000' }) {  return (    <Svg width={width} height={height} viewBox="0 0 48.001 48">          <LinearGradient id="ic_img_dating-0" x1="22.5469" y1="23.6533" x2="49.7615" y2="20.8729" gradientUnits="userSpaceOnUse">        <Stop offset="0" stopColor="#ffd653"/>        <Stop offset="1" stopColor="#ff6500"/>    </LinearGradient>    <LinearGradient id="ic_img_dating-1" x1="-2.3276" y1="19.6656" x2="34.0649" y2="23.3833" gradientUnits="userSpaceOnUse">        <Stop offset="0" stopColor="#5597ff"/>        <Stop offset="1" stopColor="#185ece"/>    </LinearGradient>    <Path d="M48.001,24a24,24 0,1 1,-24 -24A24,24 0,0 1,48.001 24Z" fill="#dfe8f5"/>    <Path d="M28.1355,33.2853c-4.3358,-6.4973 -5.9759,-11.4741 -6.0069,-15.1051C22.0481,8.4624 33.5061,8.4605 35.5257,14.9939c5.9946,-3.2943 14.2358,4.6656 7.4237,11.5985C40.4103,29.1796 35.7719,31.624 28.1355,33.2853Z" fill="url(#ic_img_dating-0)"/>    <Path d="M25.9207,39.9804C31.7181,31.292 33.9093,24.6333 33.9519,19.7843 34.0649,6.7887 18.7455,6.7862 16.0393,15.5232c-8.0153,-4.4063 -19.034,6.2385 -9.9256,15.5074C9.5132,34.49 15.7149,37.7577 25.9207,39.9804Z" fill="url(#ic_img_dating-1)"/>    </Svg>  );}
+import * as React from "react";
+import Svg, { LinearGradient, Stop, Path } from "react-native-svg";
+
+function SvgComponent(props) {
+  return (
+    <Svg
+      width={48.001}
+      height={48}
+      viewBox="0 0 48.001 48"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <LinearGradient
+        id="dating_a"
+        x1={22.5469}
+        y1={23.6533}
+        x2={49.7615}
+        y2={20.8729}
+        gradientUnits="userSpaceOnUse"
+      >
+        <Stop offset={0} stopColor="#ffd653" />
+        <Stop offset={1} stopColor="#ff6500" />
+      </LinearGradient>
+      <LinearGradient
+        id="dating_b"
+        x1={-2.3276}
+        y1={19.6656}
+        x2={34.0649}
+        y2={23.3833}
+        gradientUnits="userSpaceOnUse"
+      >
+        <Stop offset={0} stopColor="#5597ff" />
+        <Stop offset={1} stopColor="#185ece" />
+      </LinearGradient>
+      <Path d="M48.001 24a24 24 0 11-24-24 24 24 0 0124 24z" fill="#dfe8f5" />
+      <Path
+        d="M28.136 33.285C23.8 26.788 22.16 21.811 22.129 18.18c-.08-9.718 11.377-9.72 13.397-3.186C41.52 11.7 49.76 19.66 42.949 26.592c-2.539 2.588-7.177 5.032-14.813 6.693z"
+        fill="url(#dating_a)"
+      />
+      <Path
+        d="M25.92 39.98c5.798-8.688 7.99-15.347 8.032-20.196.113-12.995-15.206-12.998-17.913-4.26-8.015-4.407-19.034 6.238-9.925 15.507 3.4 3.459 9.6 6.727 19.807 8.95z"
+        fill="url(#dating_b)"
+      />
+    </Svg>
+  );
+}
+
+export default SvgComponent;

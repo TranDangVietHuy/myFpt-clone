@@ -3,6 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 import { CommonArrowIcon } from "./index";
 
 export default function SettingOption({ option, total, index }) {
+  const IconComponent = option.Icon;
   return (
     <View
       style={
@@ -10,8 +11,8 @@ export default function SettingOption({ option, total, index }) {
       }
     >
       <View style={styles.iconWrapper}>
-        {option.Icon && (
-          <option.Icon width="100%" height="100%" fill="#4A70C1" />
+        {typeof IconComponent === "function" && (
+          <IconComponent width="100%" height="100%" fill="#4A70C1" />
         )}
       </View>
 
@@ -56,6 +57,5 @@ const styles = StyleSheet.create({
     width: 12,
     height: 18,
     opacity: 0.5,
-    
   },
 });

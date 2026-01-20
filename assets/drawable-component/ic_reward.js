@@ -1,1 +1,166 @@
-import React from 'react';import { Svg, Path, G, Defs, LinearGradient, Stop, Circle, Rect } from 'react-native-svg';export default function IcReward({ width = 48.001, height = 48, color = '#000' }) {  return (    <Svg width={width} height={height} viewBox="-10.684 -12.415 52.004 52.084">      <Defs>    <LinearGradient id="ic_reward-0" x1="14.418" y1="14.86" x2="14.4" y2="18.133" gradientUnits="userSpaceOnUse">      <Stop offset="0" stopColor="#1856c3"/>      <Stop offset="1" stopColor="#003b7b"/>    </LinearGradient>    <LinearGradient id="ic_reward-1" x1="26.757" y1="17.23" x2="26.748" y2="18.44" gradientUnits="userSpaceOnUse">      <Stop offset="0" stopColor="#1856c3"/>      <Stop offset="1" stopColor="#003b7b"/>    </LinearGradient>    <LinearGradient id="ic_reward-2" x1="29.057" y1="10.479" x2="31.942" y2="10.613" gradientUnits="userSpaceOnUse">      <Stop offset="0" stopColor="#4f8eff"/>      <Stop offset="1" stopColor="#0056b3"/>    </LinearGradient>    <LinearGradient id="ic_reward-3" x1="6.867" y1="13.817" x2="6.867" y2="29.642" gradientUnits="userSpaceOnUse">      <Stop offset="0" stopColor="#ffe195"/>      <Stop offset="0.494" stopColor="#fe8013"/>      <Stop offset="0.715" stopColor="#ff750b"/>      <Stop offset="1" stopColor="#fa832e"/>    </LinearGradient>    <LinearGradient id="ic_reward-4" x1="4.396" y1="14.161" x2="4.396" y2="29.315" gradientUnits="userSpaceOnUse">      <Stop offset="0" stopColor="#ffe49d"/>      <Stop offset="0.26" stopColor="#fbc946"/>      <Stop offset="0.714" stopColor="#fd9a25"/>      <Stop offset="1" stopColor="#fe8215"/>    </LinearGradient>    <LinearGradient id="ic_reward-5" x1="3.82" y1="16.036" x2="3.82" y2="27.624" gradientUnits="userSpaceOnUse">      <Stop offset="0" stopColor="#f7610c"/>      <Stop offset="0.325" stopColor="#ff8d4d"/>      <Stop offset="0.691" stopColor="#de5000"/>      <Stop offset="1" stopColor="#f88b28"/>    </LinearGradient>    <LinearGradient id="ic_reward-6" x1="4.109" y1="16.271" x2="4.08" y2="27.432" gradientUnits="userSpaceOnUse">      <Stop offset="0" stopColor="#facd48"/>      <Stop offset="0.224" stopColor="#fbaf3d"/>      <Stop offset="0.535" stopColor="#ff820f"/>      <Stop offset="0.835" stopColor="#fe7c11"/>    </LinearGradient>  </Defs>  <Path d="M -10.714 13.569 C -10.714 -6.448 10.954 -18.959 28.29 -8.95 C 36.335 -4.305 41.29 4.279 41.29 13.569 C 41.29 33.586 19.622 46.097 2.286 36.088 C -5.759 31.443 -10.714 22.859 -10.714 13.569" fill="#dfe8f5" strokeWidth="0.5"/>  <Rect x="3.186" y="2.656" width="23.008" height="21.095" fill="url(#ic_reward-0)" rx="1.983" ry="1.983"/>  <Path fill="url(#ic_reward-1)" d="M 23.935 17.09 L 23.911 23.749 C 26.622 23.717 26.875 23.838 28.224 23.412 C 28.369 23.365 28.826 23.093 28.996 22.96 C 29.095 22.884 29.408 22.579 29.52 22.49 C 29.919 22.173 30.275 21.388 30.387 20.985 C 30.549 20.408 30.565 19.809 30.573 19.25 C 30.576 19.064 30.508 18.851 30.382 18.551 C 30.337 18.443 30.278 18.335 30.21 18.231 C 30.107 18.075 29.982 17.93 29.858 17.825 C 29.782 17.76 29.724 17.709 29.678 17.672 C 29.343 17.404 28.762 17.232 27.89 17.139 C 27.636 17.112 27.347 17.089 27.038 17.079 C 26.274 17.057 24.858 17.054 23.935 17.09 Z"/>  <Path fill="url(#ic_reward-2)" d="M 23.884 -1.516 C 23.888 -1.668 24.018 -1.759 24.171 -1.782 C 27.5 -2.291 30.706 -0.998 30.785 1.481 L 30.587 19.278 C 30.252 17.582 29.058 17.093 26.437 17.095 C 25.72 17.095 24.92 17.084 24 17.111 C 23.974 17.114 23.958 17.09 23.959 17.068 C 24.007 10.202 23.763 5.235 23.884 -1.516 Z"/>  <Path d="M 8.435 7.19 L 20.537 7.201 C 20.948 7.288 21.232 7.505 21.259 7.893 C 21.284 8.28 20.92 8.461 20.519 8.592 L 8.383 8.592 C 7.998 8.526 7.754 8.28 7.754 7.893 C 7.754 7.505 8.029 7.274 8.435 7.19 Z" fill="#8badfb" stroke="#3456a8" strokeWidth="0.05" strokeOpacity="0.99"/>  <Path d="M 8.624 10.848 L 20.742 10.875 C 21.153 10.963 21.421 11.166 21.448 11.554 C 21.473 11.942 21.144 12.263 20.708 12.256 L 8.572 12.256 C 8.187 12.19 7.943 11.942 7.943 11.554 C 7.943 11.166 8.218 10.934 8.624 10.848 Z" fill="#8badfb" stroke="#3456a8" strokeWidth="0.05" strokeOpacity="0.99"/>  <Path d="M 15.867 14.373 L 20.481 14.382 C 20.651 14.455 20.877 14.634 20.887 14.955 C 20.899 15.276 20.689 15.425 20.523 15.533 L 15.891 15.533 C 15.732 15.478 15.441 15.276 15.441 14.955 C 15.441 14.634 15.699 14.442 15.867 14.373 Z" fill="#8badfb" stroke="#3456a8" strokeWidth="0.05" strokeOpacity="0.99"/>  <Path d="M 13.427 21.75 C 13.427 17.568 10.852 14.035 7.578 13.817 L 4.86 13.817 C 1.476 13.926 0.307 17.611 0.307 21.86 C 0.307 26.109 1.467 29.434 4.85 29.631 L 4.891 29.642 L 7.51 29.642 C 10.783 29.315 13.427 25.933 13.427 21.75 Z" fill="url(#ic_reward-3)" strokeWidth="1"/>  <Path d="M 4.71 29.576 C 8.078 29.576 10.808 26.038 10.808 21.673 C 10.808 17.308 8.078 13.77 4.71 13.77 C 1.342 13.77 -1.388 17.308 -1.388 21.673 C -1.388 26.038 1.342 29.576 4.71 29.576 Z" fill="#ffd6ac" strokeWidth="1"/>  <Path d="M 4.396 29.315 C 7.59 29.315 10.18 25.922 10.18 21.738 C 10.18 17.553 7.59 14.161 4.396 14.161 C 1.202 14.161 -1.388 17.553 -1.388 21.738 C -1.388 25.922 1.202 29.315 4.396 29.315 Z" fill="url(#ic_reward-4)" strokeWidth="1"/>  <Path d="M 3.82 27.624 C 6.17 27.624 8.075 25.03 8.075 21.83 C 8.075 18.63 6.17 16.036 3.82 16.036 C 1.47 16.036 -0.435 18.63 -0.435 21.83 C -0.435 25.03 1.47 27.624 3.82 27.624 Z" fill="url(#ic_reward-5)" strokeWidth="1"/>  <Path d="M 4.08 27.432 C 6.284 27.432 8.071 24.954 8.071 21.898 C 8.071 18.841 6.284 16.364 4.08 16.364 C 1.875 16.364 0.089 18.841 0.089 21.898 C 0.089 24.954 1.875 27.432 4.08 27.432 Z" fill="url(#ic_reward-6)" strokeWidth="1"/>  <Path d="M -1.019 21.3 C -0.821 21.34 -0.617 21.342 -0.419 21.306 C -0.253 18.156 1.713 15.669 4.115 15.669 C 6.537 15.669 8.515 18.198 8.653 21.386 C 8.868 21.415 9.087 21.41 9.3 21.37 C 9.514 21.371 9.727 21.338 9.93 21.27 C 9.648 17.251 7.307 14.27 4.165 14.27 C 1.023 14.27 -1.071 17.07 -1.357 21.082 C -1.272 21.191 -1.153 21.268 -1.019 21.3 Z" fill="#ffffff" fillOpacity="0.1" strokeOpacity="0.1" strokeWidth="1"/>  <Path d="M 7.503 21.5 C 7.396 18.823 5.834 16.7 3.922 16.7 C 2.01 16.7 0.422 18.856 0.339 21.562 C 2.696 22.121 5.155 22.1 7.503 21.5 Z" fill="#ffffff" fillOpacity="0.2" strokeOpacity="0.2" strokeWidth="1"/>  <Path d="M 10.025 31.386 C 10.025 31.597 8.225 31.768 5.998 31.768 C 3.771 31.768 1.971 31.597 1.971 31.386 C 1.971 31.175 3.771 31.004 5.998 31.004 C 8.225 31.004 10.025 31.175 10.025 31.386 Z" fill="#000000" fillOpacity="0.1" strokeOpacity="0.1" strokeWidth="1"/>    </Svg>  );}
+import * as React from "react";
+import Svg, { Defs, LinearGradient, Stop, Path, Rect } from "react-native-svg";
+
+function SvgComponent(props) {
+  return (
+    <Svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={48.001}
+      height={48}
+      viewBox="-10.684 -12.415 52.004 52.084"
+      {...props}
+    >
+      <Defs>
+        <LinearGradient
+          id="a"
+          x1={14.418}
+          y1={14.86}
+          x2={14.4}
+          y2={18.133}
+          gradientUnits="userSpaceOnUse"
+        >
+          <Stop offset={0} stopColor="#1856c3" />
+          <Stop offset={1} stopColor="#003b7b" />
+        </LinearGradient>
+        <LinearGradient
+          id="b"
+          x1={26.757}
+          y1={17.23}
+          x2={26.748}
+          y2={18.44}
+          gradientUnits="userSpaceOnUse"
+        >
+          <Stop offset={0} stopColor="#1856c3" />
+          <Stop offset={1} stopColor="#003b7b" />
+        </LinearGradient>
+        <LinearGradient
+          id="c"
+          x1={29.057}
+          y1={10.479}
+          x2={31.942}
+          y2={10.613}
+          gradientUnits="userSpaceOnUse"
+        >
+          <Stop offset={0} stopColor="#4f8eff" />
+          <Stop offset={1} stopColor="#0056b3" />
+        </LinearGradient>
+        <LinearGradient
+          id="d"
+          x1={6.867}
+          y1={13.817}
+          x2={6.867}
+          y2={29.642}
+          gradientUnits="userSpaceOnUse"
+        >
+          <Stop offset={0} stopColor="#ffe195" />
+          <Stop offset={0.494} stopColor="#fe8013" />
+          <Stop offset={0.715} stopColor="#ff750b" />
+          <Stop offset={1} stopColor="#fa832e" />
+        </LinearGradient>
+        <LinearGradient
+          id="e"
+          x1={4.396}
+          y1={14.161}
+          x2={4.396}
+          y2={29.315}
+          gradientUnits="userSpaceOnUse"
+        >
+          <Stop offset={0} stopColor="#ffe49d" />
+          <Stop offset={0.26} stopColor="#fbc946" />
+          <Stop offset={0.714} stopColor="#fd9a25" />
+          <Stop offset={1} stopColor="#fe8215" />
+        </LinearGradient>
+        <LinearGradient
+          id="f"
+          x1={3.82}
+          y1={16.036}
+          x2={3.82}
+          y2={27.624}
+          gradientUnits="userSpaceOnUse"
+        >
+          <Stop offset={0} stopColor="#f7610c" />
+          <Stop offset={0.325} stopColor="#ff8d4d" />
+          <Stop offset={0.691} stopColor="#de5000" />
+          <Stop offset={1} stopColor="#f88b28" />
+        </LinearGradient>
+        <LinearGradient
+          id="g"
+          x1={4.109}
+          y1={16.271}
+          x2={4.08}
+          y2={27.432}
+          gradientUnits="userSpaceOnUse"
+        >
+          <Stop offset={0} stopColor="#facd48" />
+          <Stop offset={0.224} stopColor="#fbaf3d" />
+          <Stop offset={0.535} stopColor="#ff820f" />
+          <Stop offset={0.835} stopColor="#fe7c11" />
+        </LinearGradient>
+      </Defs>
+      <Path
+        d="M-10.714 13.569c0-20.017 21.668-32.528 39.004-22.519a26.002 26.002 0 0113 22.519c0 20.017-21.668 32.528-39.004 22.519a26.002 26.002 0 01-13-22.519"
+        fill="#dfe8f5"
+      />
+      <Rect
+        x={3.186}
+        y={2.656}
+        width={23.008}
+        height={21.095}
+        fill="url(#a)"
+        rx={1.983}
+        ry={1.983}
+      />
+      <Path
+        fill="url(#b)"
+        d="M23.935 17.09l-.024 6.659c2.711-.032 2.964.089 4.313-.337.145-.047.602-.319.772-.452.099-.076.412-.381.524-.47.399-.317.755-1.102.867-1.505.162-.577.178-1.176.186-1.735.003-.186-.065-.399-.191-.699a1.99 1.99 0 00-.172-.32 1.96 1.96 0 00-.352-.406c-.076-.065-.134-.116-.18-.153-.335-.268-.916-.44-1.788-.533-.254-.027-.543-.05-.852-.06a55.809 55.809 0 00-3.103.011z"
+      />
+      <Path
+        fill="url(#c)"
+        d="M23.884-1.516c.004-.152.134-.243.287-.266 3.329-.509 6.535.784 6.614 3.263l-.198 17.797c-.335-1.696-1.529-2.185-4.15-2.183-.717 0-1.517-.011-2.437.016-.026.003-.042-.021-.041-.043.048-6.866-.196-11.833-.075-18.584z"
+      />
+      <Path
+        d="M8.435 7.19l12.102.011c.411.087.695.304.722.692.025.387-.339.568-.74.699H8.383c-.385-.066-.629-.312-.629-.699 0-.388.275-.619.681-.703zM8.624 10.848l12.118.027c.411.088.679.291.706.679.025.388-.304.709-.74.702H8.572c-.385-.066-.629-.314-.629-.702 0-.388.275-.62.681-.706zM15.867 14.373l4.614.009c.17.073.396.252.406.573.012.321-.198.47-.364.578h-4.632c-.159-.055-.45-.257-.45-.578 0-.321.258-.513.426-.582z"
+        fill="#8badfb"
+        stroke="#3456a8"
+        strokeWidth={0.05}
+        strokeOpacity={0.99}
+      />
+      <Path
+        d="M13.427 21.75c0-4.182-2.575-7.715-5.849-7.933H4.86C1.476 13.926.307 17.611.307 21.86c0 4.249 1.16 7.574 4.543 7.771l.041.011H7.51c3.273-.327 5.917-3.709 5.917-7.892z"
+        fill="url(#d)"
+      />
+      <Path
+        d="M4.71 29.576c3.368 0 6.098-3.538 6.098-7.903S8.078 13.77 4.71 13.77s-6.098 3.538-6.098 7.903 2.73 7.903 6.098 7.903z"
+        fill="#ffd6ac"
+      />
+      <Path
+        d="M4.396 29.315c3.194 0 5.784-3.393 5.784-7.577 0-4.185-2.59-7.577-5.784-7.577s-5.784 3.392-5.784 7.577c0 4.184 2.59 7.577 5.784 7.577z"
+        fill="url(#e)"
+      />
+      <Path
+        d="M3.82 27.624c2.35 0 4.255-2.594 4.255-5.794 0-3.2-1.905-5.794-4.255-5.794-2.35 0-4.255 2.594-4.255 5.794 0 3.2 1.905 5.794 4.255 5.794z"
+        fill="url(#f)"
+      />
+      <Path
+        d="M4.08 27.432c2.204 0 3.991-2.478 3.991-5.534 0-3.057-1.787-5.534-3.991-5.534-2.205 0-3.991 2.477-3.991 5.534 0 3.056 1.786 5.534 3.991 5.534z"
+        fill="url(#g)"
+      />
+      <Path
+        d="M-1.019 21.3c.198.04.402.042.6.006.166-3.15 2.132-5.637 4.534-5.637 2.422 0 4.4 2.529 4.538 5.717.215.029.434.024.647-.016.214.001.427-.032.63-.1-.282-4.019-2.623-7-5.765-7-3.142 0-5.236 2.8-5.522 6.812a.608.608 0 00.338.218z"
+        fill="#fff"
+        fillOpacity={0.1}
+      />
+      <Path
+        d="M7.503 21.5c-.107-2.677-1.669-4.8-3.581-4.8s-3.5 2.156-3.583 4.862c2.357.559 4.816.538 7.164-.062z"
+        fill="#fff"
+        fillOpacity={0.2}
+      />
+      <Path
+        d="M10.025 31.386c0 .211-1.8.382-4.027.382-2.227 0-4.027-.171-4.027-.382s1.8-.382 4.027-.382c2.227 0 4.027.171 4.027.382z"
+        fillOpacity={0.1}
+      />
+    </Svg>
+  );
+}
+
+export default SvgComponent;

@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   searchSection: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#C8C8C8', // Matches the grey in your image
+    backgroundColor: '#e9e5e8', 
     borderRadius: 8,
     paddingHorizontal: 12,
     height: 30,

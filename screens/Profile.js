@@ -10,14 +10,13 @@ import {
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { SETTINGS_OPTIONS } from "../data/data";
 import SettingOption from "../components/SettingOption";
-import Background from "../assets/drawable-component/background";
-import CameraIcon from "../assets/drawable-component/icon_capture_image";
+import { Background, CameraIcon } from "../components/index";
 export default function Profile() {
   return (
     <SafeAreaProvider style={styles.safeArea}>
       <View style={styles.container}>
         <View style={styles.coverContainer}>
-          <Background width='100%' height="100%" />
+          <Background width="100%" height="100%" />
         </View>
 
         {/*Profile Picture Section (Overlapping) */}
@@ -67,12 +66,11 @@ const styles = StyleSheet.create({
   },
   coverContainer: {
     width: "100%",
-    height: "150",
+    height: 150,
     marginTop: 10,
-    
   },
   avatarWrapper: {
-    marginTop: -65, // This creates the overlap effect
+    marginTop: -65,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -80,12 +78,12 @@ const styles = StyleSheet.create({
     width: 130,
     height: 130,
     borderRadius: 65,
-    backgroundColor: "#def3fe", // Light blue-gray avatar background
+    backgroundColor: "#def3fe", 
     borderWidth: 5,
-    borderColor: "#fffeff", // Matches background to look like a cutout
+    borderColor: "#fffeff", 
     justifyContent: "center",
     alignItems: "center",
-    // Shadow for elevation
+    // Shadow 
     elevation: 4,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 2 },
@@ -96,7 +94,7 @@ const styles = StyleSheet.create({
   avatarLetter: {
     fontSize: 60,
     fontWeight: "500",
-    color: "#2d71ac", 
+    color: "#2d71ac",
   },
   cameraButton: {
     position: "absolute",

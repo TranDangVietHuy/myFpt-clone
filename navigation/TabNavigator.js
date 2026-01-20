@@ -29,6 +29,7 @@ export default function TabNavigator() {
   return (
     <NavigationContainer>
       <Tab.Navigator
+        initialRouteName="All Apps"
         screenOptions={({ route }) => ({
           headerShown: false,
           tabBarStyle: { ...style.tabBar },
@@ -68,9 +69,8 @@ export default function TabNavigator() {
   );
 }
 
-
 const style = StyleSheet.create({
-  tabBar:{
-    height:90,
-  }
-})
+  tabBar: {
+    height: 90,
+  },
+});

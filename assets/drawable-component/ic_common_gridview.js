@@ -1,1 +1,41 @@
-import React from 'react';import { Svg, Path, G, Defs, LinearGradient, Stop, Circle, Rect } from 'react-native-svg';export default function IcCommonGridview({ width = 20, height = 20, color = '#000' }) {  return (    <Svg width={width} height={height} viewBox="0 0 20 20">        <G>    <Path d="M9.111,2.037A0.37,0.37 0,0 0,8.741 1.667L2.037,1.667A0.37,0.37 0,0 0,1.667 2.037v6.7a0.37,0.37 0,0 0,0.37 0.37h6.7a0.37,0.37 0,0 0,0.37 -0.37ZM8.367,8.367L2.408,8.367L2.408,2.408L8.367,2.408ZM8.367,8.367" fill="#666" stroke="#666" strokeWidth="0.6"/>    <Path d="M18.333,2.037a0.37,0.37 0,0 0,-0.37 -0.37h-6.7a0.37,0.37 0,0 0,-0.37 0.37v6.7a0.37,0.37 0,0 0,0.37 0.37h6.7a0.37,0.37 0,0 0,0.37 -0.37ZM17.593,8.367h-5.963L11.63,2.408h5.963ZM17.593,8.367" fill="#666" stroke="#666" strokeWidth="0.6"/>    <Path d="M9.111,11.259a0.37,0.37 0,0 0,-0.37 -0.37L2.037,10.889a0.37,0.37 0,0 0,-0.37 0.37v6.7a0.37,0.37 0,0 0,0.37 0.37h6.7a0.37,0.37 0,0 0,0.37 -0.37ZM8.37,17.559L2.408,17.559v-5.926L8.367,11.633ZM8.37,17.559" fill="#666" stroke="#666" strokeWidth="0.6"/>    <Path d="M18.333,11.259a0.37,0.37 0,0 0,-0.37 -0.37h-6.7a0.37,0.37 0,0 0,-0.37 0.37v6.7a0.37,0.37 0,0 0,0.37 0.37h6.7a0.37,0.37 0,0 0,0.37 -0.37ZM17.592,17.559h-5.963v-5.926h5.963ZM17.592,17.559" fill="#666" stroke="#666" strokeWidth="0.6"/>  </G>    </Svg>  );}
+import * as React from "react";
+import Svg, { Path } from "react-native-svg";
+
+function SvgComponent(props) {
+  return (
+    <Svg
+      width={20}
+      height={20}
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <Path
+        d="M9.111 2.037a.37.37 0 00-.37-.37H2.037a.37.37 0 00-.37.37v6.7a.37.37 0 00.37.37h6.7a.37.37 0 00.37-.37zm-.744 6.33H2.408V2.408h5.959zm0 0"
+        fill="#666"
+        stroke="#666"
+        strokeWidth={0.6}
+      />
+      <Path
+        d="M18.333 2.037a.37.37 0 00-.37-.37h-6.7a.37.37 0 00-.37.37v6.7a.37.37 0 00.37.37h6.7a.37.37 0 00.37-.37zm-.74 6.33H11.63V2.408h5.963zm0 0"
+        fill="#666"
+        stroke="#666"
+        strokeWidth={0.6}
+      />
+      <Path
+        d="M9.111 11.259a.37.37 0 00-.37-.37H2.037a.37.37 0 00-.37.37v6.7a.37.37 0 00.37.37h6.7a.37.37 0 00.37-.37zm-.741 6.3H2.408v-5.926h5.959zm0 0"
+        fill="#666"
+        stroke="#666"
+        strokeWidth={0.6}
+      />
+      <Path
+        d="M18.333 11.259a.37.37 0 00-.37-.37h-6.7a.37.37 0 00-.37.37v6.7a.37.37 0 00.37.37h6.7a.37.37 0 00.37-.37zm-.741 6.3h-5.963v-5.926h5.963zm0 0"
+        fill="#666"
+        stroke="#666"
+        strokeWidth={0.6}
+      />
+    </Svg>
+  );
+}
+
+export default SvgComponent;
