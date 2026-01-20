@@ -1,0 +1,24 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">\n
+    <linearGradient id="icon_support_my_profile-0" x1="9.998" y1="13.147" x2="14.6026" y2="21.148" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#5597ff"/>
+        <stop offset="1" stop-color="#185ece"/>
+    </linearGradient>
+    <linearGradient id="icon_support_my_profile-1" x1="16.0735" y1="4.017" x2="18.3269" y2="20.3663" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#5597ff"/>
+        <stop offset="1" stop-color="#185ece"/>
+    </linearGradient>
+    <linearGradient id="icon_support_my_profile-2" x1="9.995" y1="0.9928" x2="14.5988" y2="9.0037" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#5597ff"/>
+        <stop offset="1" stop-color="#185ece"/>
+    </linearGradient>
+    <linearGradient id="icon_support_my_profile-3" x1="3.9265" y1="4.018" x2="6.1799" y2="20.3673" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#5597ff"/>
+        <stop offset="1" stop-color="#185ece"/>
+    </linearGradient>
+    <g>\n
+        <path d="M12.401,13.147a3.958,3.958 0,0 1,-4.8 0L4.018,16.726a9,9 0,0 0,11.96 0Z" fill="url(#icon_support_my_profile-0)"/>\n
+        <path d="M16.726,4.019l-3.579,3.579a3.958,3.958 0,0 1,0 4.8l3.579,3.579a9,9 0,0 0,0 -11.96Z" fill="url(#icon_support_my_profile-1)"/>\n
+        <path d="M10,1A8.934,8.934 0,0 0,4.016 3.274l3.579,3.579a3.958,3.958 0,0 1,4.8 0l3.579,-3.579A8.934,8.934 0,0 0,10 1Z" fill="url(#icon_support_my_profile-2)"/>\n
+        <path d="M6.853,7.599 L3.274,4.018a9,9 0,0 0,0 11.96l3.579,-3.579a3.958,3.958 0,0 1,0 -4.8Z" fill="url(#icon_support_my_profile-3)"/>\n
+    </g>\n
+</svg>
